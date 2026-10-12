@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-module.exports = {};
-=======
+
 const db = require('../services/mysql.service');
 
 const LIMIT_ONE = 1;
@@ -44,4 +42,4 @@ module.exports = {
   listHighestShotsToGoalsDifference,
   listRedCardsAndGoalsBySeason
 };
->>>>>>> 3490ac8 (Add analysis queries implementation for questions 3 and 4)
+
